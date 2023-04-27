@@ -13,3 +13,5 @@ Color Theme: [huacat.pink-theme](https://github.com/huacat1017/huacat.pink-theme
 File Icon Theme: [Material File Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
 Product Icon Theme: [Material Product Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-product-icons)
+
+![screenshot.png](https://github.com/kylesnav/agnoster-zsh-theme-x-huacat.pink-theme/blob/master/screenshot.png)

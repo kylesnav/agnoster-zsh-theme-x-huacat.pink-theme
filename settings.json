@@ -1,0 +1,21 @@
+{
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+    "editor.inlineSuggest.enabled": true,
+    "git.autofetch": true,
+    "workbench.colorTheme": "Huacat Pink Theme",
+    "mssql.connections": [],
+    "terminal.integrated.fontFamily": "'Roboto Mono for Powerline'",
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.external.osxExec": "iTerm.app",
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.iconTheme": "material-icon-theme",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    }
+}

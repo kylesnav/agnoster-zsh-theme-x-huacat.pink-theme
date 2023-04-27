@@ -1,3 +1,4 @@
+# Colors Used:
 # Purple #9e5fd9
 # Pink #dd71b9
 # Red #e45d1e

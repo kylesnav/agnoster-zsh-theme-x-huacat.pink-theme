@@ -1,10 +1,12 @@
-# Colors Used:
 # Purple #9e5fd9
 # Pink #dd71b9
 # Red #e45d1e
 # Green #62ad44
 # Yellow #e2b213
 # Blue #559fe4
+
+
+
 
 # vim:ft=zsh ts=2 sw=2 sts=2
 #
@@ -229,7 +231,15 @@ prompt_dir() {
 # Virtualenv: current working virtualenv
 prompt_virtualenv() {
   if [[ -n "$VIRTUAL_ENV" && -n "$VIRTUAL_ENV_DISABLE_PROMPT" ]]; then
-    prompt_segment '#559fe4' black "(${VIRTUAL_ENV:t:gs/%/%%})"
+    prompt_segment '#9e5fd9' black "(${VIRTUAL_ENV:t:gs/%/%%})"
+  fi
+}
+
+# Pipenv: current working pipenv
+prompt_pipenv() {
+  if [[ -n "$PIPENV_ACTIVE" ]]; then
+    local dir_name="$(basename $PWD)"
+    prompt_segment '#9e5fd9' black "(${dir_name:gs/%/%%})"
   fi
 }
 
@@ -237,6 +247,7 @@ prompt_virtualenv() {
 # - was there an error
 # - am I root
 # - are there background jobs?
+
 prompt_status() {
   local -a symbols
 
@@ -265,6 +276,7 @@ build_prompt() {
   RETVAL=$?
   prompt_status
   prompt_virtualenv
+  prompt_pipenv
   prompt_aws
   prompt_context
   prompt_dir

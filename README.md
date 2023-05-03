@@ -14,4 +14,5 @@ File Icon Theme: [Material File Icons](https://marketplace.visualstudio.com/item
 
 Product Icon Theme: [Material Product Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-product-icons)
 
-![screenshot.png](https://github.com/kylesnav/agnoster-zsh-theme-x-huacat.pink-theme/blob/master/screenshot.png)
+![screenshot.png](screenshot.png)
+![screenshot2.png](screenshot2.png)

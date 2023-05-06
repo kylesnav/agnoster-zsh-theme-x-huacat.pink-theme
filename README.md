@@ -14,5 +14,7 @@ File Icon Theme: [Material File Icons](https://marketplace.visualstudio.com/item
 
 Product Icon Theme: [Material Product Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-product-icons)
 
-![screenshot.png](screenshot.png)
-![screenshot2.png](screenshot2.png)
+## Screenshots
+
+![screenshot.png](Screenshots/screenshot.png)
+![screenshot2.png](Screenshots/screenshot2.png)
